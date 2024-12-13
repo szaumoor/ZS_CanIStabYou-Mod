@@ -1,10 +1,14 @@
-## Introduction
+
+# Introduction
+### Can I stab you?
+
+That's the million-dollar question for every character who can backstab.
 
 This mod addresses in a very modular way your preferences as far as who gets to be immune to backstabs. It's a common complaint to not be able to backstab many enemies, including many in ToB, which reduces the already underpowered (and seemingly hated by the game) Thieves, where backstabs is one of the main and sometimes only way of excelling in combat. They will always be outplayed by Fighters and other classes that can be "left alone to do their thing in combat" without micromanagement.
 
 There's a group to remove backstab immunities to particular groups or specific enemies, and a group to enforce this immunity as per your liking.
 
-## Components
+# Components
 
 ### Backstab Immunity: Removals
 
@@ -80,15 +84,15 @@ These creatures aren't actually immune in vanilla except adamantine golems, but 
 
 **Component 104:** Minotaurs can be backstabbed
 
-This includes those stupid minotaurs in WK who have granted the gift of ignoring blades going through their backs.
+This includes those stupid minotaurs in WK who have been granted the gift of ignoring blades going through their backs.
 
 **Component 118:** Liches can be backstabbed
 
-This includes the few liches with this immunity in ToB, and whatever else that might exist.
+This includes the few liches with this immunity in ToB, and whatever other liches that might have this immunity.
 
 **Component 108:** Slimes can be backstabbed
 
-This doesn't make much logical sense, probably, since it's like backstabbing soup, but there you go.
+This doesn't make much logical sense, probably, since it's like stabbing soup, but there you go.
 
 **Component 120:** Mist creatures can be backstabbed
 
@@ -96,7 +100,7 @@ In vanilla game mist creatures, including undead vampiric mists, and spellhaunts
 
 ### Backstab Immunity: Enforcement
 
-**Component 201:** All spectral creatures are immune to backstab
+**Component 201:** All spectral undead are immune to backstab
 
 This includes shadows, spectres, wraiths, spectral trolls, and undead mist creatures such as vampiric mists.
 
