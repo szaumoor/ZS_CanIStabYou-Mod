@@ -6,7 +6,7 @@ That's the million-dollar question for every character who can backstab.
 
 This mod addresses in a very modular way your preferences as far as who gets to be immune to backstabs. It's a common complaint to not be able to backstab many enemies, including many in ToB, which reduces the already underpowered (and seemingly hated by the game) Thieves, where backstabs is one of the main and sometimes only way of excelling in combat. They will always be outplayed by Fighters and other classes that can be "left alone to do their thing in combat" without micromanagement.
 
-There's a group to remove backstab immunities to particular groups or specific enemies, and a group to enforce this immunity as per your liking.
+There's a group of components to remove backstab immunities from particular types or specific enemies, and a group to enforce this immunity as per your liking.
 
 # Components
 
