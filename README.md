@@ -14,7 +14,7 @@ Exactly as it says. This component is mutually exclusive with the rest of compon
 
 **Component 106:** All humanoids can be backstabbed, except ToB bosses
 
-This component makes every humanoid immune to backstab (except barbarians) susceptible again except humanoid ToB bosses (Sendai, Balthazar, Gromnir). It includes humanoids such as Kiser, the humanoid helpers of Yaga Shura, and the tiefling servants of Aesgareth who are inexplicably immune to backstabs (probably Bioware's way of giving the middle finger to Thieves -- especially pure thieves -- since they have this type of seething hate for them).
+This component makes every humanoid immune to backstab susceptible again except humanoid ToB bosses (Sendai, Balthazar, Gromnir, Melissan). It includes humanoids such as Kiser, the humanoid helpers of Yaga Shura, and the tiefling servants of Aesgareth who are inexplicably immune to backstabs (probably Bioware's way of giving the middle finger to Thieves -- especially pure thieves -- since they have this type of seething hate for them).
 
 **Component 102:** Humanoid ToB bosses can be backstabbed
 
