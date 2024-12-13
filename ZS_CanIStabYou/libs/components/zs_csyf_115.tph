@@ -1,0 +1,11 @@
+COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
+    SET planatar = IDS_OF_SYMBOL(race PLANATAR)
+    SET darkplanatar = IDS_OF_SYMBOL(race DARKPLANATAR)
+    SET solar = IDS_OF_SYMBOL(race SOLAR)
+    SET antisolar = IDS_OF_SYMBOL(race ANTISOLAR)
+    READ_BYTE 0x272 race
+
+    PATCH_IF race = planatar OR race = darkplanatar OR race = solar OR race = antisolar BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+    END
+BUT_ONLY

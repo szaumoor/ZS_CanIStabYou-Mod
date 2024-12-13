@@ -1,0 +1,6 @@
+COPY_EXISTING "FINMEL01.CRE" ~override~
+              "CUTMELIS.CRE" ~override~
+              "MEL01.CRE"    ~override~
+              "MELISS01.CRE" ~override~
+              "OHB4MLSN.CRE" ~override~
+  LPF DELETE_EFFECT INT_VAR match_opcode = 292 END

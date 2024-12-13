@@ -1,0 +1,34 @@
+@30 = ~Backstab Immunity: Removals~
+@31 = ~Backstab Immunity: Enforcement~
+//@32 = ~Invisibility Detection: Removals~
+
+@99 = ~Everything can be backstabbed~
+@106 = ~All humanoids can be backstabbed, except humanoid ToB bosses~
+@102 = ~Humanoid ToB bosses can be backstabbed~
+@103 = ~Yaga-Shura can be backstabbed~
+@112 = ~Sendai can be backstabbed~
+@122 = ~Balthazar can be backstabbed~
+@113 = ~Abazigal can be backstabbed (human form)~
+@114 = ~Abazigal can be backstabbed (dragon form)~
+@105 = ~Amelyssan can be backstabbed~
+@121 = ~Bhaal's avatars can be backstabbed~
+@100 = ~Beholders can be backstabbed~
+@115 = ~Celestials such as Planetars, Devas, and Solars can be backstabbed~
+@117 = ~Demogorgon can be backstabbed~
+@116 = ~Demons and devils can be backstabbed (except Demogorgon)~
+@109 = ~Demiliches can be backstabbed~
+@110 = ~Dragons can be backstabbed (except Abazigal)~
+@101 = ~Golems can be backstabbed~
+@104 = ~Minotaurs can be backstabbed~
+@118 = ~Liches can be backstabbed~
+@108 = ~Slimes can be backstabbed~
+@120 = ~Mist creatures can be backstabbed~
+
+@201 = ~All spectral creatures are immune to backstab~
+@205 = ~All golems are immune to backstab~
+
+
+@50 = ~This mod is only available for IWDEE/BGEE/BG2EE/EET~
+@51 = ~This mod is only available for BG2EE/EET~
+@52 = ~This component was installed through another component~
+//@53 = ~Cannot do a group install if individual components of it were installed previously~

@@ -1,0 +1,38 @@
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+
+    COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
+        SET humanoid = IDS_OF_SYMBOL(general HUMANOID)
+        READ_BYTE 0x271 cre_general
+        PATCH_IF cre_general = humanoid
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "SENDAI"   != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "SENDAI2"  != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "SENDAI3"  != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "SENDAI4"  != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "SENDAI5"  != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "SENDAI6"  != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "SENDAI7"  != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "SENDAI8"  != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "BALTH"    != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "CUTBALTH" != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "GROMNIR"  != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "FINMEL01" != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "CUTMELIS" != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "MEL01"    != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "MELISS01" != 0
+            AND "%SOURCE_RES%" STRING_COMPARE_CASE "OHB4MLSN" != 0
+        BEGIN
+          LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+        END
+    BUT_ONLY
+
+END ELSE BEGIN
+
+    COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
+        SET humanoid = IDS_OF_SYMBOL(general HUMANOID)
+        READ_BYTE 0x271 cre_general
+        PATCH_IF cre_general = humanoid BEGIN
+          LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+        END
+    BUT_ONLY
+
+END

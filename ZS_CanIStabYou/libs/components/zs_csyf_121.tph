@@ -1,0 +1,4 @@
+COPY_EXISTING "CHALSLAY.CRE" ~override~
+              "CHALRV01.CRE" ~override~
+              "ohbbrvgr.CRE" ~override~
+  LPF DELETE_EFFECT INT_VAR match_opcode = 292 END

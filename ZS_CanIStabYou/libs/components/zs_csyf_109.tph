@@ -1,0 +1,7 @@
+COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
+    SET demilich = IDS_OF_SYMBOL(race DEMILICH)
+    READ_BYTE 0x272 race
+    PATCH_IF race = demilich BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+    END
+BUT_ONLY
