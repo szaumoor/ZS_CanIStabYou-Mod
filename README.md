@@ -18,7 +18,7 @@ This component makes every humanoid immune to backstab susceptible again except 
 
 **Component 102:** Humanoid ToB bosses can be backstabbed
 
-This ensures that Sendai, Balthazar, and Gromnir can be backstab. Bear in mind that end-of-install-order mods like SCS make Gromnir a barbarian and therefore automatically immune to backstabs.
+This ensures that Sendai, Balthazar, Amelyssan, and Gromnir can be backstabbed. Bear in mind that end-of-install-order mods like SCS make Gromnir a barbarian and therefore automatically immune to backstabs.
 
 **Component 103:** Yaga-Shura can be backstabbed
 
