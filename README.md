@@ -52,8 +52,6 @@ This makes all instances of Slayer and The Ravager no longer immune to backstab.
 
 You know what's a weak point? THAT GIANT FRICKING EYEBALL. Beholders are no longer immune to backstabs. Climb on that thing and stab that damn eyeball. Legolas would be proud.
 
-These creatures aren't actually immune in vanilla (but this component ensures none exist after other mods that add content), but they generally have outrageous physical resistances or outright immunities unless you have the right type of damage. For example, if you want to backstab a clay golem, you better have a club ready, only crushing does damage!
-
 **Component 115:** Celestials such as Planetars, Devas, and Solars can be backstabbed
 
 Self explanatory.
@@ -77,6 +75,8 @@ I'm ambivalent about this one, although I'd pick it for mod setups that beef up 
 **Component 101:** Golems can be backstabbed
 
 This ensures no golems are immune to backstabs (please give me structural weaknesses!). This affects creatures that are considered golems, like animated armor.
+
+These creatures aren't actually immune in vanilla except adamantine golems, but they generally have outrageous physical resistances or outright immunities unless you have the right type of damage. For example, if you want to backstab a clay golem, you better have a club ready, only crushing does damage!
 
 **Component 104:** Minotaurs can be backstabbed
 
