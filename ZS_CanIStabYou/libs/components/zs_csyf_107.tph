@@ -1,0 +1,2 @@
+COPY_EXISTING ~GROMNIR.CRE~ ~override~
+    LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
