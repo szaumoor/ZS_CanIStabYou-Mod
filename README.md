@@ -146,17 +146,29 @@ Creatures before game version 2.6 are automatically immune to backstabs, the log
 This removes the ability to see through invisibility completely from the game, at least from creatures initially set up to be able to do that.
 
 **Component 302:** Dragons cannot see through invisibility, except Abazigal
+
 **Component 303:** Demons cannot see through invisibility, except Demogorgon
+
 **Component 304:** Celestials cannot see through invisibility
+
 **Component 305:** Liches cannot see through invisibility
+
 **Component 306:** Demiliches cannot see through invisibility
+
 **Component 307:** The Unseeing Eye cannot see through invisibility
+
 **Component 308:** Sendai cannot see through invisibility
+
 **Component 309:** Balthazar cannot see through invisibility
+
 **Component 310:** Yaga-Shura cannot see through invisibility
+
 **Component 311:** Amelyssan cannot see through invisibility
+
 **Component 312:** Abazigal cannot see through invisibility
+
 **Component 313:** Demogorgon cannot see through invisibility
+
 **Component 314:** Bhaal's avatars cannot see through invisibility
 
 ## Compatibility and issues
