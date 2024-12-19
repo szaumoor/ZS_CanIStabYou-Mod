@@ -1,0 +1,32 @@
+DEFINE_PATCH_FUNCTION CRE_OP_PRESENT
+INT_VAR
+    opcode = "-1"
+RET
+    result
+BEGIN
+    READ_LONG 0x2c4 eff_offset
+    READ_LONG 0x2c8 eff_length
+    SET effect_size = 0x108
+    SET found = 0
+    FOR ( index = 0; index < eff_length; ++index ) BEGIN
+        READ_LONG (eff_offset + 0x08) op
+        PATCH_IF op = opcode BEGIN
+            found = 1
+            index = eff_length // break
+        END
+        eff_offset += effect_size
+    END
+    result = found
+END
+
+COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
+    LPF CRE_OP_PRESENT INT_VAR opcode = 193 RET found_detection = result END
+    //LPF CRE_OP_PRESENT INT_VAR opcode = 292 RET found_backstab_immunity = result END
+    PATCH_IF found_detection = 1
+    //AND found_backstab_immunity = 0
+    BEGIN
+        //PATCH_PRINT "Found invisibility detection via script in creature file %SOURCE_RES%"
+        LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+        LPF ADD_CRE_EFFECT INT_VAR opcode = 292 timing = 9 parameter1 = 1 END
+    END
+BUT_ONLY

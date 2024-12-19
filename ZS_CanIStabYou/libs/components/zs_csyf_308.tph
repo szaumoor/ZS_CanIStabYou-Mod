@@ -1,0 +1,9 @@
+COPY_EXISTING "SENDAI.CRE"  ~override~
+              "SENDAI2.CRE" ~override~
+              "SENDAI3.CRE" ~override~
+              "SENDAI4.CRE" ~override~
+              "SENDAI5.CRE" ~override~
+              "SENDAI6.CRE" ~override~
+              "SENDAI7.CRE" ~override~
+              "SENDAI8.CRE" ~override~
+    LPF DELETE_EFFECT INT_VAR match_opcode = 193 END

@@ -1,6 +1,9 @@
 @30 = ~Backstab Immunity: Removals~
 @31 = ~Backstab Immunity: Enforcement~
-//@32 = ~Invisibility Detection: Removals~
+@32 = ~Invisibility Detection: Removals~
+// @33 = ~Invisibility Detection: Enforcement~
+@34 = ~Critical Hit Immunity: Removals~
+@35 = ~Critical Hit Immunity: Enforcement~
 
 @99 = ~Everything can be backstabbed~
 @106 = ~All humanoids can be backstabbed, except humanoid ToB bosses~
@@ -25,9 +28,25 @@
 @108 = ~Slimes can be backstabbed~
 @120 = ~Mist creatures can be backstabbed~
 
+
 @201 = ~All spectral creatures are immune to backstab~
 @205 = ~All golems are immune to backstab~
 
+@300 = ~Every creature marked as able to see through invisibility is automatically immune to backstabs (version 2.6+)~
+@301 = ~No creature can see through invisibility, they must rely on invisibility dispelling like any other~
+@302 = ~Dragons cannot see through invisibility, except Abazigal~
+@303 = ~Demons cannot see through invisibility, except Demogorgon~
+@304 = ~Celestials cannot see through invisibility~
+@305 = ~Liches cannot see through invisibility~
+@306 = ~Demiliches cannot see through invisibility~
+@307 = ~The Unseeing Eye cannot see through invisibility~
+@308 = ~Sendai cannot see through invisibility~
+@309 = ~Balthazar cannot see through invisibility~
+@310 = ~Yaga-Shura cannot see through invisibility~
+@311 = ~Amelyssan cannot see through invisibility~
+@312 = ~Abazigal cannot see through invisibility~
+@313 = ~Demogorgon cannot see through invisibility~
+@314 = ~Bhaal's avatars cannot see through invisibility~
 
 @50 = ~This mod is only available for IWDEE/BGEE/BG2EE/EET~
 @51 = ~This mod is only available for BG2EE/EET~

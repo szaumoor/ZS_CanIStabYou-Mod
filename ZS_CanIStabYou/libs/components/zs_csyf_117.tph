@@ -1,2 +1,2 @@
 COPY_EXISTING "DEMOGOR2.CRE" ~override~
-  LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+    LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
