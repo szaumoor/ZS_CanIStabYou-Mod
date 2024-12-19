@@ -135,11 +135,37 @@ This includes shadows, spectres, wraiths, spectral trolls, and undead mist creat
 
 AFAIK only the adamantine golem is immune to backstab in vanilla. This will make them all immune. This also includes Battle Horrors, and statues, which are also considered golems.
 
+### Invisibility Detection: Removals
+
+**Component 300:** Every creature marked as able to see through invisibility is automatically immune to backstabs (version 2.6+)
+
+Creatures before game version 2.6 are automatically immune to backstabs, the logic being that if they can see through invisibility, the backstabs cannot trigger as you are effectively not invisible as far as they're concerned. This ensures any creatures marked as able to see through invisibility are immune to backstab if playing in game versions 2.6+, where the previously mentioned behavior is not present.
+
+**Component 301:** No creature can see through invisibility, they must rely on invisibility dispelling like any other
+
+This removes the ability to see through invisibility completely from the game, at least from creatures initially set up to be able to do that.
+
+**Component 302:** Dragons cannot see through invisibility, except Abazigal
+**Component 303:** Demons cannot see through invisibility, except Demogorgon
+**Component 304:** Celestials cannot see through invisibility
+**Component 305:** Liches cannot see through invisibility
+**Component 306:** Demiliches cannot see through invisibility
+**Component 307:** The Unseeing Eye cannot see through invisibility
+**Component 308:** Sendai cannot see through invisibility
+**Component 309:** Balthazar cannot see through invisibility
+**Component 310:** Yaga-Shura cannot see through invisibility
+**Component 311:** Amelyssan cannot see through invisibility
+**Component 312:** Abazigal cannot see through invisibility
+**Component 313:** Demogorgon cannot see through invisibility
+**Component 314:** Bhaal's avatars cannot see through invisibility
+
 ## Compatibility and issues
 
-Bear in mind that in game versions previous to 2.6, creatures with invisibility detection via script (balors, dragons) can't be backstabbed either, as it is implied that because they can see through invisibility, your character is as far as they're concerned effectively not invisible and thus you cannot backstab them. Personally, I think it's not quite logical anyway. Higher awareness doesn't mean it's impossible to be distracted and therefore susceptible to a big surprise hit.
+Bear in mind that in game versions previous to 2.6, creatures with invisibility detection via script (balors, dragons) can't be backstabbed either, as it is implied that because they can see through invisibility, your character is as far as they're concerned effectively not invisible and thus you cannot backstab them. Personally, I think it's not quite logical. Higher awareness doesn't mean it's impossible to be distracted and therefore susceptible to a big surprise hit. In the end it's just a poorly implemented feature as far as I'm concerned.
 
-In 2.6+, more control is available, and only those that have the backstab immunity opcode are indeed immune. This means that in versions < 2.6, these components will no open those enemies to backstabs just with the backstab immunity removal components. I might add add components in the future for invisibility detection via script removals for the benefit of those who don't want to play the latest version of the game.
+In 2.6+, more control is available, and only those that have the backstab immunity opcode are indeed immune. This means that in versions < 2.6, these components will not open those enemies to backstabs just with the backstab immunity removal components and thus invisibility detection via script must be removed too.
+
+I might add components in the future for critical hit immunity for the benefit of those who see backstabs and critical hits as essentially equivalent in terms of what gets affected by critical hits and backstabs.
 
 ## Acknowledgements and credits
 

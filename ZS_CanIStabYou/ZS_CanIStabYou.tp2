@@ -1,6 +1,6 @@
 BACKUP "weidu_external/backup/ZS_CanIStabYou"
 SUPPORT "RoyalProtector at Gibberlings's forum https://www.gibberlings3.net/profile/12720-royalprotector/"
-VERSION "v1.0.1"
+VERSION "v1.0.2"
 README ~%MOD_FOLDER%/README.md~
 AUTO_EVAL_STRINGS
 /////////////////////////////////////////////////////////////////////////////////////////////////////
