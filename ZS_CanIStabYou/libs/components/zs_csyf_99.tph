@@ -1,3 +1,39 @@
 COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
   LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
 BUT_ONLY
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+  // vanilla creature items that cause backstab immunity
+  COPY_EXISTING ~GOLIRO.ITM~   ~override~ // golems
+                ~CDGOLIRO.ITM~   ~override~
+                ~GOLFLE.ITM~   ~override~
+                ~IRONGOL.ITM~   ~override~
+                ~GOLCLA.ITM~   ~override~
+                ~GOLMAG01.ITM~   ~override~
+                ~GOLSTO.ITM~   ~override~
+                ~GOLSTONE.ITM~ ~override~
+                ~GOLTOME4.ITM~ ~override~
+                ~GOLBRA.ITM~   ~override~
+                ~OHBGOL01.ITM~   ~override~
+                ~DRAGRING.ITM~   ~override~ // dragon
+                ~DOGWAWP.ITM~   ~override~ // celestial hound
+                ~BDSPNAIM.ITM~   ~override~ // shaman spirits
+                ~BDSPIRIM.ITM~   ~override~ // shaman spirits
+    LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+  BUT_ONLY
+END
+
+
+// COPY_EXISTING_REGEXP ~.*\.ITM~ ~override~
+//   READ_LONG 0x6a abil_off
+//   READ_SHORT 0x70 abilities
+
+//   FOR ( index = 0; index < abilities; ++index ) BEGIN
+//     READ_SHORT abil_off eff_opcode
+//     PATCH_IF eff_opcode = 292 BEGIN
+//       PATCH_PRINT "Found opcode 292 in item %SOURCE_RES%"
+//     END
+//     abil_off += 0x30
+//   END
+
+// BUT_ONLY

@@ -5,3 +5,21 @@ COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
       LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
     END
 BUT_ONLY
+
+
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+  // vanilla golem items that cause backstab immunity
+  COPY_EXISTING ~GOLIRO.ITM~   ~override~ // golems
+                ~CDGOLIRO.ITM~   ~override~
+                ~GOLFLE.ITM~   ~override~
+                ~IRONGOL.ITM~   ~override~
+                ~GOLCLA.ITM~   ~override~
+                ~GOLMAG01.ITM~   ~override~
+                ~GOLSTO.ITM~   ~override~
+                ~GOLSTONE.ITM~ ~override~
+                ~GOLTOME4.ITM~ ~override~
+                ~GOLBRA.ITM~   ~override~
+                ~OHBGOL01.ITM~   ~override~
+    LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+  BUT_ONLY
+END

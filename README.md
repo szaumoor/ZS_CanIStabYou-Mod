@@ -1,5 +1,6 @@
 
 # Introduction
+---
 ### Can I stab you?
 
 That's the million-dollar question for every character who can backstab.
@@ -38,6 +39,8 @@ I personally follow the school of thought (A): similar to sneak attacks, if a cr
 **Component 99:** Everything can be backstabbed
 
 Exactly as it says. This component is mutually exclusive with the rest of components in this group since it covers everything already.
+
+It will also affect non-usable items that are used to grant immunities to particular creatures, such as golem weapons, dragon rings, shaman spirit rings, etcetera. This patching is manual, if a mod introduces a new item for this purpose, it will not be patched. Compatibility can be added if I become aware of it though.
 
 **Component 106:** All humanoids can be backstabbed, except ToB bosses
 
@@ -107,7 +110,7 @@ I'm ambivalent about this one, although I'd pick it for mod setups that beef up 
 
 This ensures no golems are immune to backstabs (please give me structural weaknesses!). This affects creatures that are considered golems, like animated armor.
 
-These creatures aren't actually immune in vanilla except adamantine golems, but they generally have outrageous physical resistances or outright immunities unless you have the right type of damage. For example, if you want to backstab a clay golem, you better have a club ready, only crushing does damage!
+All golems are immune to backstab, either through effects on their creature file, or on their weapons assigned to them. This removes this immunity if it exists from both. Be warned that if new golems are introduced through mods, and there are new items that do this, this component will not patch them. Compatibility can be added if I become aware of it though.
 
 **Component 104:** Minotaurs can be backstabbed
 
