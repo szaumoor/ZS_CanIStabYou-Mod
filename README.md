@@ -136,7 +136,7 @@ This includes shadows, spectres, wraiths, spectral trolls, and undead mist creat
 
 **Component 205:** All golems are immune to backstab
 
-AFAIK only the adamantine golem is immune to backstab in vanilla. This will make them all immune. This also includes Battle Horrors, and statues, which are also considered golems.
+This will ensure all golems are immune. Even though they normally are, if any of them is missing this immunity, it will be added. This component also includes Battle Horrors, and statues, which are also considered golems as far as race is concerned.
 
 ### Invisibility Detection: Removals
 
@@ -175,6 +175,8 @@ This removes the ability to see through invisibility completely from the game, a
 **Component 314:** Bhaal's avatars cannot see through invisibility
 
 ## Compatibility and issues
+
+This mod should ideally be installed after any mod that adds new creatures, or modify existing creatures. This will ensure it will work as expected. This also means you probably should install it after SCS, since my mod will process creatures as they are up to that point, and I'm fairly certain SCS adds new creatures (and certainly modifies existing ones).
 
 Bear in mind that in game versions previous to 2.6, creatures with invisibility detection via script (balors, dragons) can't be backstabbed either, as it is implied that because they can see through invisibility, your character is as far as they're concerned effectively not invisible and thus you cannot backstab them. Personally, I think it's not quite logical. Higher awareness doesn't mean it's impossible to be distracted and therefore susceptible to a big surprise hit. In the end it's just a poorly implemented feature as far as I'm concerned.
 
