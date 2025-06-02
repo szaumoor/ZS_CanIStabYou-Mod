@@ -13,7 +13,7 @@ There's a group of components to remove backstab immunities from particular type
 
 There seems to be **schools of thought** around what a backstab should be. A backstab should be either:
 
-- **(A)** Similar to a critical hit, it's just a hit that is dealt on a weak point -- or any other point that hurts and damages badly or cause important structural weakness of the creature.
+- **(A)** Similar to a critical hit, it's just a hit that is dealt on a weak point -- or any other point that hurts and damages badly or causes important structural damage to the creature.
 - **(B)** Unlike a critical hit, it's not about weak points, but about attacking by surprise or otherwise without seeing it coming, and the surprise is what makes the hit they take so powerful.
 - **(C)** It's both, it's surprise attack that hits a weak point that otherwise would be difficult to hit if the creature was completely aware of your existence.
 - **(D)** It doesn't matter and I don't care, I just want Thieves to be f***ing useful. Everything can be backstabbed, so shut up.
@@ -22,7 +22,7 @@ Followers of school of thoughts (A) would argue that if a creature has weak poin
 
 Followers of school of thought (B) would argue that if a creature has higher awareness, such as a celestial being or a demon, they wouldn't be able to be backstabbed, but other things that can be surprised are fair game.
 
-Followers of school of thought (C) would argue that if a creature has either higher awareness or no weak points, they cannot be backstabbed under any circumstance.
+Followers of school of thought (C) would argue that if a creature has either higher awareness or no weak points, they cannot be backstabbed under any circumstance, for the same reason critical hits are impossible.
 
 And followers of school of thought (D) are just sick of Thieves being useless and just want to have fun with engaging gameplay regardless of whether it makes earthly sense or is lorewise accurate in some version of the setting.
 
@@ -30,7 +30,7 @@ I personally follow the school of thought (A): similar to sneak attacks, if a cr
 
 **What is your school of thought?**
 
-<span style="font-size:0.5em;">I know, right? Completely necessary section of the mod's readme.</span>
+I know, right? Completely necessary section of the mod's readme.
 
 # Components
 

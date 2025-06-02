@@ -1,0 +1,1 @@
+- The component that removes backstab immunity from everyone will now seek out all items that do this, except player-usable items, instead of manually patching known items that do this, which hopefully will make it more robust against different mod setups
