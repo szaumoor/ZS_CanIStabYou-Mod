@@ -42,7 +42,7 @@ I know, right? Completely necessary section of the mod's readme.
 
 Exactly as it says. This component is mutually exclusive with the rest of components in this group since it covers everything already.
 
-It will also affect non-usable items that are used to grant immunities to particular creatures, such as golem weapons, dragon rings, shaman spirit rings, etcetera. This patching is manual, if a mod introduces a new item for this purpose, it will not be patched. Compatibility can be added if I become aware of it though.
+It will also affect non-usable items that are used to grant immunities to particular creatures, such as golem weapons, dragon rings, shaman spirit rings, etcetera.
 
 **Component 106:** All humanoids can be backstabbed, except ToB bosses
 
@@ -112,11 +112,11 @@ I'm ambivalent about this one, although I'd pick it for mod setups that beef up 
 
 This ensures no golems are immune to backstabs (please give me structural weaknesses!). This affects creatures that are considered golems, like animated armor.
 
-All golems are immune to backstab, either through effects on their creature file, or on their weapons assigned to them. This removes this immunity if it exists from both. Be warned that if new golems are introduced through mods, and there are new items that do this, this component will not patch them. Compatibility can be added if I become aware of it though.
+All golems are immune to backstab, either through effects on their creature file, or on their weapons assigned to them. This removes this immunity if it exists from both. Be warned that if new golems are introduced through mods, and there are new items that are used to grant them these immunities, this component will not patch them. Compatibility can be added if I become aware of it though.
 
 **Component 104:** Minotaurs can be backstabbed
 
-This includes those stupid minotaurs in Watcher's Keep, who have been granted the gift of ignoring blades going through their backs.
+This includes those stupid minotaurs in Watcher's Keep, who have been granted the gift of ignoring blades going through their backs for some ungodly reason.
 
 **Component 118:** Liches can be backstabbed
 
@@ -128,7 +128,7 @@ This doesn't make much logical sense, probably, since it's like stabbing soup, b
 
 **Component 120:** Mist creatures can be backstabbed
 
-In vanilla game mist creatures, including undead vampiric mists, and spellhaunts, are immune to backstab, and are as far as I know the only undead creatures that are. This removes this immunity.
+In vanilla game, mist creatures (like vampiric mists and spellhaunts) are all immune to backstab, and are as far as I know the only undead creatures that are. This removes this immunity.
 
 ### Backstab Immunity: Enforcement
 
