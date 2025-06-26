@@ -28,7 +28,7 @@ Followers of school of thought (C) would argue that if a creature has either hig
 
 And followers of school of thought (D) are just sick of Thieves being useless and just want to have fun with engaging gameplay regardless of whether it makes earthly sense or is lorewise accurate in some version of the setting.
 
-I personally follow the school of thought (A): similar to sneak attacks, if a creature has a non-amorphous, completely physical body, then it can be backstabbed, even if it has higher awareness and can't be made unaware of your existence through invisibility. If they are distracted, they can be considered unaware in the sense that they may be dealing with something else, like another enemy fighting it or otherwise distracted. I resent the idea that seeing the invisible implies that they cannot be backstabbed, and I think it's cheesy and  implemented poorly.
+I personally follow the school of thought (A): similar to sneak attacks, if a creature has a non-amorphous, completely physical body, then it can be backstabbed, even if it has higher awareness and can't be made unaware of your existence through invisibility. If they are distracted, they can be considered unaware in the sense that they may be dealing with something else. For example, maybe another enemy is fighting it, or they're otherwise distracted. I resent the idea that seeing the invisible implies that they cannot be backstabbed, and I think it's cheesy and implemented poorly.
 
 **What is your school of thought?**
 
