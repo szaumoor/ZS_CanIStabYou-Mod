@@ -1,7 +1,9 @@
 
 # Introduction
+
 ---
-### Can I stab you?
+
+## Can I stab you?
 
 That's the million-dollar question for every character who can backstab.
 
@@ -9,11 +11,11 @@ This mod addresses in a very modular way your preferences as far as who gets to 
 
 There's a group of components to remove backstab immunities from particular types or specific enemies, and a group to enforce this immunity as per your liking.
 
-### What is a backstab?
+## What is a backstab?
 
 There seems to be **schools of thought** around what a backstab should be. A backstab should be either:
 
-- **(A)** Similar to a critical hit, it's just a hit that is dealt on a weak point -- or any other point that hurts and damages badly or causes important structural damage to the creature.
+- **(A)** Similar to a critical hit, it's just a hit that is dealt on a weak point -- or any other point that hurts and damages badly or cause important structural weakness of the creature.
 - **(B)** Unlike a critical hit, it's not about weak points, but about attacking by surprise or otherwise without seeing it coming, and the surprise is what makes the hit they take so powerful.
 - **(C)** It's both, it's surprise attack that hits a weak point that otherwise would be difficult to hit if the creature was completely aware of your existence.
 - **(D)** It doesn't matter and I don't care, I just want Thieves to be f***ing useful. Everything can be backstabbed, so shut up.
@@ -22,7 +24,7 @@ Followers of school of thoughts (A) would argue that if a creature has weak poin
 
 Followers of school of thought (B) would argue that if a creature has higher awareness, such as a celestial being or a demon, they wouldn't be able to be backstabbed, but other things that can be surprised are fair game.
 
-Followers of school of thought (C) would argue that if a creature has either higher awareness or no weak points, they cannot be backstabbed under any circumstance, for the same reason critical hits are impossible.
+Followers of school of thought (C) would argue that if a creature has either higher awareness or no weak points, they cannot be backstabbed under any circumstance.
 
 And followers of school of thought (D) are just sick of Thieves being useless and just want to have fun with engaging gameplay regardless of whether it makes earthly sense or is lorewise accurate in some version of the setting.
 
@@ -32,7 +34,7 @@ I personally follow the school of thought (A): similar to sneak attacks, if a cr
 
 I know, right? Completely necessary section of the mod's readme.
 
-# Components
+## Components
 
 ### Backstab Immunity: Removals
 
@@ -136,7 +138,7 @@ This includes shadows, spectres, wraiths, spectral trolls, and undead mist creat
 
 **Component 205:** All golems are immune to backstab
 
-This will ensure all golems are immune. Even though they normally are, if any of them is missing this immunity, it will be added. This component also includes Battle Horrors, and statues, which are also considered golems as far as race is concerned.
+AFAIK only the adamantine golem is immune to backstab in vanilla. This will make them all immune. This also includes Battle Horrors, and statues, which are also considered golems.
 
 ### Invisibility Detection: Removals
 
@@ -175,8 +177,6 @@ This removes the ability to see through invisibility completely from the game, a
 **Component 314:** Bhaal's avatars cannot see through invisibility
 
 ## Compatibility and issues
-
-This mod should ideally be installed after any mod that adds new creatures, or modify existing creatures. This will ensure it will work as expected. This also means you probably should install it after SCS, since my mod will process creatures as they are up to that point, and I'm fairly certain SCS adds new creatures (and certainly modifies existing ones).
 
 Bear in mind that in game versions previous to 2.6, creatures with invisibility detection via script (balors, dragons) can't be backstabbed either, as it is implied that because they can see through invisibility, your character is as far as they're concerned effectively not invisible and thus you cannot backstab them. Personally, I think it's not quite logical. Higher awareness doesn't mean it's impossible to be distracted and therefore susceptible to a big surprise hit. In the end it's just a poorly implemented feature as far as I'm concerned.
 

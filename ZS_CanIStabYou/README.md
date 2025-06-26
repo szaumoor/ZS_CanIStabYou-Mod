@@ -1,7 +1,9 @@
 
 # Introduction
+
 ---
-### Can I stab you?
+
+## Can I stab you?
 
 That's the million-dollar question for every character who can backstab.
 
@@ -9,7 +11,7 @@ This mod addresses in a very modular way your preferences as far as who gets to 
 
 There's a group of components to remove backstab immunities from particular types or specific enemies, and a group to enforce this immunity as per your liking.
 
-### What is a backstab?
+## What is a backstab?
 
 There seems to be **schools of thought** around what a backstab should be. A backstab should be either:
 
@@ -30,9 +32,9 @@ I personally follow the school of thought (A): similar to sneak attacks, if a cr
 
 **What is your school of thought?**
 
-<span style="font-size:0.5em;">I know, right? Completely necessary section of the mod's readme.</span>
+I know, right? Completely necessary section of the mod's readme.
 
-# Components
+## Components
 
 ### Backstab Immunity: Removals
 
