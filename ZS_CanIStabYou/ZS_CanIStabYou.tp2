@@ -30,7 +30,7 @@ INCLUDE ~%MOD_FOLDER%/libs/components/zs_csyf_106.tph~
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN @102 DESIGNATED 102 GROUP @30 // humanoid ToB bosses can be backstabbed
-REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
+REQUIRE_PREDICATE GAME_IS "bgee bg2ee eet" @50
 FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~99~ @52
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -38,7 +38,7 @@ INCLUDE ~%MOD_FOLDER%/libs/components/zs_csyf_102.tph~
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN @107 DESIGNATED 107 GROUP @30 // Gromnir can be backstabbed
-REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
+REQUIRE_PREDICATE GAME_IS "bgee bg2ee eet" @50
 FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~99~ @52
 FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~102~ @52
 /////////////////////////////////////////////////////////////////////////////////////////////////////
