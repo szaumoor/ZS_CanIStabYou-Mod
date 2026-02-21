@@ -1,7 +1,6 @@
-COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
-    SET golem = IDS_OF_SYMBOL(race GOLEM)
+OUTER_SET golem = IDS_OF_SYMBOL(race GOLEM)
+COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
     READ_BYTE 0x272 race
-
     PATCH_IF race = golem BEGIN
         LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
         LPF ADD_CRE_EFFECT INT_VAR opcode = 292 timing = 9 parameter1 = 1 END

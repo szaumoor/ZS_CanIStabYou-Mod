@@ -1,5 +1,5 @@
-COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
-    SET beholder = IDS_OF_SYMBOL(race BEHOLDER)
+OUTER_SET beholder = IDS_OF_SYMBOL(race BEHOLDER)
+COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
     READ_BYTE 0x272 race
     PATCH_IF race = beholder BEGIN
       LPF DELETE_EFFECT INT_VAR match_opcode = 292 END

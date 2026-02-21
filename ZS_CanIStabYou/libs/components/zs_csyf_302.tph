@@ -1,9 +1,9 @@
-COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
-    SET dragon = IDS_OF_SYMBOL(race DRAGON)
+OUTER_SET dragon = IDS_OF_SYMBOL(race DRAGON)
+COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
     READ_BYTE 0x272 race
     PATCH_IF race = dragon
-        AND "%SOURCE_RES%" STRING_COMPARE_CASE "DRAGBLUE" != 0
-        AND "%SOURCE_RES%" STRING_COMPARE_CASE "ABAZIGAL" != 0
+        AND NOT "%SOURCE_RES%" STR_EQ "dragblue"
+        AND NOT "%SOURCE_RES%" STR_EQ "abazigal"
     BEGIN
       LPF DELETE_EFFECT INT_VAR match_opcode = 193 END
     END

@@ -1,9 +1,6 @@
-DEFINE_PATCH_FUNCTION CRE_OP_PRESENT
-INT_VAR
-    opcode = "-1"
-RET
-    result
+DEFINE_PATCH_MACRO CRE_OP_PRESENT
 BEGIN
+    SET found_detection = "-1"
     READ_LONG 0x2c4 eff_offset
     READ_LONG 0x2c8 eff_length
     READ_BYTE 0x33 eff_type
@@ -28,8 +25,9 @@ BEGIN
     result = found
 END
 
-COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
-    LPF CRE_OP_PRESENT INT_VAR opcode = 193 RET found_detection = result END
+OUTER_SET opcode = 193
+COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
+    LPM CRE_OP_PRESENT
     PATCH_IF found_detection BEGIN
         LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
         LPF ADD_CRE_EFFECT INT_VAR opcode = 292 timing = 9 parameter1 = 1 END

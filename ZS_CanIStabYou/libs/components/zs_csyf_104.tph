@@ -1,5 +1,5 @@
-COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
-    SET minotaur = IDS_OF_SYMBOL(race MINOTAUR)
+OUTER_SET minotaur = IDS_OF_SYMBOL(race MINOTAUR)
+COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
     READ_BYTE 0x272 race
     PATCH_IF race = minotaur BEGIN
       LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
