@@ -1,7 +1,4 @@
-
 # Introduction
-
----
 
 ## Can I stab you?
 
