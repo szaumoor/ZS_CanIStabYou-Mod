@@ -1,7 +1,7 @@
-COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
-    SET demonic = IDS_OF_SYMBOL(race DEMONIC)
-    READ_BYTE 0x272 race
-    PATCH_IF race = demonic AND "%SOURCE_RES%" STRING_COMPARE_CASE "DEMOGOR2" != 0 BEGIN
-      LPF DELETE_EFFECT INT_VAR match_opcode = 193 END
-    END
+OUTER_SET demonic = IDS_OF_SYMBOL(race DEMONIC)
+COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
+  READ_BYTE 0x272 race
+  PATCH_IF race = demonic AND NOT "%SOURCE_RES%" STR_EQ "demogor2" BEGIN
+    LPF DELETE_EFFECT INT_VAR match_opcode = 193 END
+  END
 BUT_ONLY

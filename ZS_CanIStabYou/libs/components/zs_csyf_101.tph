@@ -1,25 +1,24 @@
-COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
-    SET golem = IDS_OF_SYMBOL(race GOLEM)
-    READ_BYTE 0x272 race
-    PATCH_IF race = golem BEGIN
-      LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
-    END
+OUTER_SET golem = IDS_OF_SYMBOL(race GOLEM)
+COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
+  READ_BYTE 0x272 race
+  PATCH_IF race = golem BEGIN
+    LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+  END
 BUT_ONLY
 
+COPY_EXISTING ~goliro.itm~   ~override~ // golems
+              ~cdgoliro.itm~ ~override~
+              ~golfle.itm~   ~override~
+              ~irongol.itm~  ~override~
+              ~golcla.itm~   ~override~
+              ~golmag01.itm~ ~override~
+              ~golsto.itm~   ~override~
+              ~golstone.itm~ ~override~
+              ~goltome4.itm~ ~override~
+              ~golbra.itm~   ~override~
+              ~ohbgol01.itm~ ~override~
+              ~ironman.itm~  ~override~ 
+              ~icegolem.itm~ ~override~ 
+  LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+BUT_ONLY IF_EXISTS
 
-ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-  // vanilla golem items that cause backstab immunity
-  COPY_EXISTING ~GOLIRO.ITM~   ~override~ // golems
-                ~CDGOLIRO.ITM~   ~override~
-                ~GOLFLE.ITM~   ~override~
-                ~IRONGOL.ITM~   ~override~
-                ~GOLCLA.ITM~   ~override~
-                ~GOLMAG01.ITM~   ~override~
-                ~GOLSTO.ITM~   ~override~
-                ~GOLSTONE.ITM~ ~override~
-                ~GOLTOME4.ITM~ ~override~
-                ~GOLBRA.ITM~   ~override~
-                ~OHBGOL01.ITM~   ~override~
-    LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
-  BUT_ONLY
-END

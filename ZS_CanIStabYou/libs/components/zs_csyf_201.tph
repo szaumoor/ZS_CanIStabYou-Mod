@@ -1,12 +1,12 @@
-COPY_EXISTING_REGEXP ~.*\.CRE~ ~override~
-    SET mist = IDS_OF_SYMBOL(race MIST)
-    SET shadow = IDS_OF_SYMBOL(race SHADOW)
-    SET spectral_undead = IDS_OF_SYMBOL(race SPECTRAL_UNDEAD)
-    SET wraith = IDS_OF_SYMBOL(race WRAITH)
-    SET spectre = IDS_OF_SYMBOL(race SPECTRE)
-    SET spectral_troll = IDS_OF_SYMBOL(class SPECTRAL_TROLL)
-    SET undead = IDS_OF_SYMBOL(general UNDEAD)
+OUTER_SET mist = IDS_OF_SYMBOL(race MIST)
+OUTER_SET shadow = IDS_OF_SYMBOL(race SHADOW)
+OUTER_SET spectral_undead = IDS_OF_SYMBOL(race SPECTRAL_UNDEAD)
+OUTER_SET wraith = IDS_OF_SYMBOL(race WRAITH)
+OUTER_SET spectre = IDS_OF_SYMBOL(race SPECTRE)
+OUTER_SET spectral_troll = IDS_OF_SYMBOL(class SPECTRAL_TROLL)
+OUTER_SET undead = IDS_OF_SYMBOL(general UNDEAD)
 
+COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
     READ_BYTE 0x271 general
     READ_BYTE 0x272 race
     READ_BYTE 0x273 class
