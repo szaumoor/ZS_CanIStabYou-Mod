@@ -6,21 +6,18 @@ COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
   END
 BUT_ONLY
 
+COPY_EXISTING ~goliro.itm~   ~override~ // golems
+              ~cdgoliro.itm~ ~override~
+              ~golfle.itm~   ~override~
+              ~irongol.itm~  ~override~
+              ~golcla.itm~   ~override~
+              ~golmag01.itm~ ~override~
+              ~golsto.itm~   ~override~
+              ~golstone.itm~ ~override~
+              ~goltome4.itm~ ~override~
+              ~golbra.itm~   ~override~
+              ~ohbgol01.itm~ ~override~
+              ~ironman.itm~   ~override~ 
+  LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+BUT_ONLY IF_EXISTS
 
-ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
-
-  COPY_EXISTING ~goliro.itm~   ~override~ // golems
-                ~cdgoliro.itm~ ~override~
-                ~golfle.itm~   ~override~
-                ~irongol.itm~  ~override~
-                ~golcla.itm~   ~override~
-                ~golmag01.itm~ ~override~
-                ~golsto.itm~   ~override~
-                ~golstone.itm~ ~override~
-                ~goltome4.itm~ ~override~
-                ~golbra.itm~   ~override~
-                ~ohbgol01.itm~ ~override~
-    LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
-  BUT_ONLY
-
-END
