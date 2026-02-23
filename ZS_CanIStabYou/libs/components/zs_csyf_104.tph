@@ -1,3 +1,19 @@
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+
+  PRINT "[INFO]: Fixing minotaurs being set to the Ogre/gnoll race instead of Minotaurs"
+  COPY_EXISTING ~icmin01.cre~  ~override~
+                ~amminot.cre~  ~override~
+                ~ohbmin01.cre~ ~override~
+                ~ohbminsu.cre~ ~override~
+                ~garock.cre~   ~override~
+                ~hlmafer.cre~  ~override~
+                ~ohnghall.cre~ ~override~
+                ~rock.cre~     ~override~
+                ~slandor.cre~  ~override~
+    WRITE_BYTE 0x272 race_minotaur
+
+END
+
 OUTER_SET minotaur = IDS_OF_SYMBOL(race MINOTAUR)
 COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
     READ_BYTE 0x272 race

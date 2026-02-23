@@ -23,7 +23,7 @@ REQUIRE_PREDICATE GAME_IS "bgee bg2ee eet" @50
 FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~99~ @52
 
 BEGIN @107 DESIGNATED 107 GROUP @30 // Gromnir can be backstabbed
-REQUIRE_PREDICATE GAME_IS "bgee bg2ee eet" @50
+REQUIRE_PREDICATE GAME_IS "bg2ee eet" @50
 FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~99~ @52
 FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~102~ @52
 
@@ -63,7 +63,7 @@ REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
 FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~99~ @52
 
 BEGIN @115 DESIGNATED 115 GROUP @30 // celestials can be backstabbed
-REQUIRE_PREDICATE GAME_IS "bgee iwdee bg2ee eet" @50
+REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
 FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~99~ @52
 
 BEGIN @117 DESIGNATED 117 GROUP @30 // Demogorgon can be backstabbed
