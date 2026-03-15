@@ -1,5 +1,5 @@
+OUTER_SET race_minotaur = IDS_OF_SYMBOL(race MINOTAUR)
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
-
   PRINT "[INFO]: Fixing minotaurs being set to the Ogre/gnoll race instead of Minotaurs"
   COPY_EXISTING ~icmin01.cre~  ~override~
                 ~amminot.cre~  ~override~
@@ -14,10 +14,9 @@ ACTION_IF GAME_IS "bg2ee eet" BEGIN
 
 END
 
-OUTER_SET minotaur = IDS_OF_SYMBOL(race MINOTAUR)
 COPY_EXISTING_REGEXP ~^.+\.cre$~ ~override~
     READ_BYTE 0x272 race
-    PATCH_IF race = minotaur BEGIN
+    PATCH_IF race = race_minotaur BEGIN
       LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
     END
 BUT_ONLY
