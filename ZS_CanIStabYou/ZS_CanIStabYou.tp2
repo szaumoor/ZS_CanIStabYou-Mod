@@ -118,41 +118,58 @@ REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
 
 BEGIN @302 DESIGNATED 302 GROUP @32 // Dragons cannot see through invisibility, except Abazigal
 REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @303 DESIGNATED 303 GROUP @32 // Demons cannot see through invisibility, except Demogorgon
 REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @304 DESIGNATED 304 GROUP @32 // Celestials cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @305 DESIGNATED 305 GROUP @32 // Liches cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @306 DESIGNATED 306 GROUP @32 // Demiliches cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "iwdee bgee bg2ee eet" @50
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @307 DESIGNATED 307 GROUP @32 // The Unseeing Eye cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @308 DESIGNATED 308 GROUP @32 // Sendai cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @309 DESIGNATED 309 GROUP @32 // Balthazar cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @310 DESIGNATED 310 GROUP @32 // Yaga Shura cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @311 DESIGNATED 311 GROUP @32 // Amelyssan cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @312 DESIGNATED 312 GROUP @32 // Abazigal cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @313 DESIGNATED 313 GROUP @32 // Demogorgon cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 BEGIN @314 DESIGNATED 314 GROUP @32 // Bhaal's avatars cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
+
+BEGIN @315 DESIGNATED 315 GROUP @32 // Rune assassins cannot see through invisibility
+REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+FORBID_COMPONENT ~ZS_CanIStabYou.tp2~ ~301~ @52
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////

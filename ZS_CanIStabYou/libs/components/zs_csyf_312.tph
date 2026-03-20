@@ -1,3 +1,5 @@
 COPY_EXISTING "abazigal.cre" ~override~
               "dragblue.cre" ~override~
-    LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
+    LPF DELETE_EFFECT INT_VAR match_opcode = 193 END
+BUT_ONLY
+

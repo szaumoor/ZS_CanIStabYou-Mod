@@ -1,3 +1,3 @@
-COPY_EXISTING "demogor2.cre" ~override~
+COPY_EXISTING ~tanthf01.cre~ ~override~
     LPF DELETE_EFFECT INT_VAR match_opcode = 193 END
 BUT_ONLY
