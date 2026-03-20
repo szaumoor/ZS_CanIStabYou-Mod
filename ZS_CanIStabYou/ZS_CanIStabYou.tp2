@@ -1,6 +1,6 @@
 BACKUP "weidu_external/backup/ZS_CanIStabYou"
 SUPPORT "Kaelyn at G3's forum https://www.gibberlings3.net/profile/12720-kaelyn/ or kaelyn.@tuta.io"
-VERSION "1.0.6"
+VERSION "1.0.7"
 README ~%MOD_FOLDER%/readme.md~
 ALWAYS
 	INCLUDE ~%MOD_FOLDER%/libs/zs_always.tph~
@@ -153,6 +153,9 @@ BEGIN @313 DESIGNATED 313 GROUP @32 // Demogorgon cannot see through invisibilit
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
 
 BEGIN @314 DESIGNATED 314 GROUP @32 // Bhaal's avatars cannot see through invisibility
+REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
+
+BEGIN @315 DESIGNATED 315 GROUP @32 // Rune assassins cannot see through invisibility
 REQUIRE_PREDICATE GAME_IS "bg2ee eet" @51
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
