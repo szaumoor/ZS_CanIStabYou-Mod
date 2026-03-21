@@ -37,105 +37,34 @@ I know, right? Completely necessary section of the mod's readme.
 
 **Component 99:** Everything can be backstabbed
 
-Exactly as it says. This component is mutually exclusive with the rest of components in this group since it covers everything already.
+This component is mutually exclusive with the rest of components in this group since it covers everything already.
 
-It will also affect non-usable items that are used to grant immunities to particular creatures, such as golem weapons, dragon rings, shaman spirit rings, etcetera.
-
-**Component 106:** All humanoids can be backstabbed, except ToB bosses
-
-This component makes every humanoid immune to backstab susceptible again except humanoid ToB bosses (Sendai, Balthazar, Gromnir, Melissan). It includes humanoids such as Kiser in Saradush, the humanoid helpers of Yaga Shura, and the tiefling servants of Aesgareth who are inexplicably immune to backstabs (another middle finger to Thieves -- what in the world is so special about these tieflings?!).
-
-**Component 102:** Humanoid ToB bosses can be backstabbed
-
-This ensures that Sendai, Balthazar, Amelyssan, and Gromnir can be backstabbed. Bear in mind that end-of-install-order mods like SCS make Gromnir a barbarian and therefore automatically immune to backstabs.
-
-**Component 107:** Gromnir can be backstabbed
-
-He's just... a half-orc fighter.
-
-**Component 103:** Yaga-Shura can be backstabbed
-
-Yaga Shura is just a fire giant with an attitude. If regular giants can be backstabbed, Yaga-Shura can too.
-
-**Component 112:** Sendai can be backstabbed
-
-She's just... a drow cleric/mage...
-
-**Component 122:** Balthazar can be backstabbed
-
-He's just... a human monk...
-
-**Component 113:** Abazigal can be backstabbed (human form)
-
-This is separate from the humanoid tweak because even in his human form, he is considered a dragon nevertheless, and it probably doesn't make sense to treat this as an actual humanoid.
-
-**Component 114:** Abazigal can be backstabbed (dragon form)
-
-Self explanatory.
-
-**Component 105:** Amelyssan can be backstabbed
-
-Self explanatory.
-
-**Component 121:** Bhaal's avatars can be backstabbed
-
-This makes all instances of Slayer and The Ravager no longer immune to backstab. The ravager takes almost no damage from anything anyway.
-
-**Component 100:** Beholders can be backstabbed
-
-You know what's a weak point? THAT GIANT FRICKING EYEBALL. Beholders are no longer immune to backstabs. Climb on that thing and stab that damn eyeball. Legolas would be proud.
-
-**Component 115:** Celestials such as Planetars, Devas, and Solars can be backstabbed
-
-Self explanatory.
-
-**Component 117:** Demogorgon can be backstabbed
-
-Self explanatory.
-
-**Component 116:** Demons and devils can be backstabbed (except Demogorgon)
-
-This includes every creature marked as demonic. This also includes Aesgareth and other special demons in Watcher's Keep.
-
-**Component 109:** Demiliches can be backstabbed
-
-They're considered immune in the base game, probably because they're almost beyond the ties to the physical world, as per the lore, unlike liches, although they already have insane physical resistances, so it probably makes little difference. If anything, it will make Thieves slightly more useful in the fight on par with Fighters.
-
-**Component 110:** Dragons can be backstabbed
-
-I'm ambivalent about this one, although I'd pick it for mod setups that beef up dragon's health pool or damage resistances.
-
-**Component 101:** Golems can be backstabbed
-
-This ensures no golems are immune to backstabs (please give me structural weaknesses!). This affects creatures that are considered golems, like animated armor.
-
-All golems are immune to backstab, either through effects on their creature file, or on their weapons assigned to them. This removes this immunity if it exists from both. Be warned that if new golems are introduced through mods, and there are new items that are used to grant them these immunities, this component will not patch them. Compatibility can be added if I become aware of it though.
-
-**Component 104:** Minotaurs can be backstabbed
-
-This includes those stupid minotaurs in Watcher's Keep, who have been granted the gift of ignoring blades going through their backs for some ungodly reason.
-
-**Component 118:** Liches can be backstabbed
-
-This includes the few liches with this immunity in ToB, and whatever other liches that might have this immunity.
-
-**Component 108:** Slimes can be backstabbed
-
-This doesn't make much logical sense, probably, since it's like stabbing soup, but there you go.
-
-**Component 120:** Mist creatures can be backstabbed
-
-In vanilla game, mist creatures (like vampiric mists and spellhaunts) are all immune to backstab, and are as far as I know the only undead creatures that are. This removes this immunity.
+**Component 106:** All humanoids can be backstabbed, except ToB bosses  
+**Component 102:** Humanoid ToB bosses can be backstabbed  
+**Component 107:** Gromnir can be backstabbed  
+**Component 103:** Yaga-Shura can be backstabbed  
+**Component 112:** Sendai can be backstabbed  
+**Component 122:** Balthazar can be backstabbed  
+**Component 113:** Abazigal can be backstabbed (human form)  
+**Component 114:** Abazigal can be backstabbed (dragon form)  
+**Component 105:** Amelyssan can be backstabbed  
+**Component 121:** Bhaal's avatars can be backstabbed  
+**Component 100:** Beholders can be backstabbed  
+**Component 115:** Celestials such as Planetars, Devas, and Solars can be backstabbed  
+**Component 117:** Demogorgon can be backstabbed  
+**Component 116:** Demons and devils can be backstabbed (except Demogorgon)  
+**Component 109:** Demiliches can be backstabbed  
+**Component 110:** Dragons can be backstabbed  
+**Component 101:** Golems can be backstabbed  
+**Component 104:** Minotaurs can be backstabbed  
+**Component 118:** Liches can be backstabbed  
+**Component 108:** Slimes can be backstabbed  
+**Component 120:** Mist creatures can be backstabbed  
 
 ### Backstab Immunity: Enforcement
 
-**Component 201:** All spectral undead are immune to backstab
-
-This includes shadows, spectres, wraiths, spectral trolls, and undead mist creatures such as vampiric mists.
-
-**Component 205:** All golems are immune to backstab
-
-AFAIK only the adamantine golem is immune to backstab in vanilla. This will make them all immune. This also includes Battle Horrors, and statues, which are also considered golems.
+**Component 201:** All spectral undead are immune to backstab  
+**Component 205:** All golems are immune to backstab  
 
 ### Invisibility Detection: Removals
 
@@ -143,35 +72,21 @@ AFAIK only the adamantine golem is immune to backstab in vanilla. This will make
 
 Creatures before game version 2.6 are automatically immune to backstabs, the logic being that if they can see through invisibility, the backstabs cannot trigger as you are effectively not invisible as far as they're concerned. This ensures any creatures marked as able to see through invisibility are immune to backstab if playing in game versions 2.6+, where the previously mentioned behavior is not present.
 
-**Component 301:** No creature can see through invisibility, they must rely on invisibility dispelling like any other
-
-This removes the ability to see through invisibility completely from the game, at least from creatures initially set up to be able to do that.
-
-**Component 302:** Dragons cannot see through invisibility, except Abazigal
-
-**Component 303:** Demons cannot see through invisibility, except Demogorgon
-
-**Component 304:** Celestials cannot see through invisibility
-
-**Component 305:** Liches cannot see through invisibility
-
-**Component 306:** Demiliches cannot see through invisibility
-
-**Component 307:** The Unseeing Eye cannot see through invisibility
-
-**Component 308:** Sendai cannot see through invisibility
-
-**Component 309:** Balthazar cannot see through invisibility
-
-**Component 310:** Yaga-Shura cannot see through invisibility
-
-**Component 311:** Amelyssan cannot see through invisibility
-
-**Component 312:** Abazigal cannot see through invisibility
-
-**Component 313:** Demogorgon cannot see through invisibility
-
-**Component 314:** Bhaal's avatars cannot see through invisibility
+**Component 301:** No creature can see through invisibility, they must rely on invisibility dispelling like any other  
+**Component 302:** Dragons cannot see through invisibility, except Abazigal  
+**Component 303:** Demons cannot see through invisibility, except Demogorgon  
+**Component 304:** Celestials cannot see through invisibility  
+**Component 305:** Liches cannot see through invisibility  
+**Component 306:** Demiliches cannot see through invisibility  
+**Component 307:** The Unseeing Eye cannot see through invisibility  
+**Component 308:** Sendai cannot see through invisibility  
+**Component 309:** Balthazar cannot see through invisibility  
+**Component 310:** Yaga-Shura cannot see through invisibility  
+**Component 311:** Amelyssan cannot see through invisibility  
+**Component 312:** Abazigal cannot see through invisibility  
+**Component 313:** Demogorgon cannot see through invisibility  
+**Component 314:** Bhaal's avatars cannot see through invisibility  
+**Component 315:** Rune Assassins cannot see through invisibility  
 
 ## Compatibility and issues
 
