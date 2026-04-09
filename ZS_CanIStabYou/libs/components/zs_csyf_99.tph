@@ -6,6 +6,6 @@ INCLUDE ~%MOD_FOLDER%/libs/zs_checks.tpa~
 COPY_EXISTING_REGEXP ~^.+\.itm$~ ~override~
   LPF IS_BIT_SET INT_VAR bit = 2 bit_field = LONG_AT(0x18) RET droppable_flag = result END
   PATCH_IF NOT droppable_flag BEGIN
-      LPF DELETE_EFFECT INT_VAR silent = 1 match_opcode = 292 END
+      LPF DELETE_EFFECT INT_VAR match_opcode = 292 END
   END
 BUT_ONLY
